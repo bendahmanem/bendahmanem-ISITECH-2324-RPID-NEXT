@@ -10,3 +10,12 @@
 - [ ] utilisez les modules CSS
 - [ ] Utilisez les props
 - [ ] Utilisez les states
+- [ ] L'application doit etre responsive (mobile first)
+
+Partie 2:
+
+- [ ] Creer un nouveau projet React avec Vite
+- [ ] Cette fois ci l'application permettra de gerer les elements d'une liste a l'aide d'un formulaire
+- [ ] Créer un composant `List` qui affiche une liste de profil utilisateur
+- [ ] Creer un formulaire qui permet d'ajouter un profil utilisateur à la liste
+- [ ] Trouvez un moyen de filtrer la liste des profils par annee de naissance par exemple
