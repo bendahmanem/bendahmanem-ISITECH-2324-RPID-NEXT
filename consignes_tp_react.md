@@ -19,3 +19,10 @@ Partie 2:
 - [ ] Créer un composant `List` qui affiche une liste de profil utilisateur
 - [ ] Creer un formulaire qui permet d'ajouter un profil utilisateur à la liste
 - [ ] Trouvez un moyen de filtrer la liste des profils par annee de naissance par exemple
+
+## Consignes TP_2 React
+
+- [ ] A l'aide des projets 2 a 5 et de la documentation officielle React, tentez de comprendre le fonctionnement du hook useEffect
+- [ ] Mettez en place un exemple d'utilisation du hook useEffect
+- [ ] A l'aide des projets 6 a 13 et de la documentation officielle React, tentez de comprendre le fonctionnement de l'api Context et du hook useContext
+- [ ] Mettez en place un exemple d'utilisation de l'api Context et du hook useContext
