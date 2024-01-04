@@ -1,0 +1,39 @@
+## Le hook useEffect
+
+Le hook useEffect permet d'effectuer des actions à chaque fois que le composant est monté, démonté ou mis à jour.
+
+Il est possible de définir plusieurs useEffect dans un même composant.
+
+```jsx
+import React, { useState, useEffect } from "react";
+
+const App = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    console.log("Le composant a été monté");
+  }, []);
+
+  useEffect(() => {
+    console.log("Le composant a été mis à jour");
+  }, [count]);
+
+  useEffect(() => {
+    console.log("Le composant a été monté");
+    return () => {
+      console.log("Le composant a été démonté");
+    };
+  }, []);
+
+  return (
+    <div>
+      <p>Vous avez cliqué {count} fois</p>
+      <button onClick={() => setCount(count + 1)}>Cliquez ici</button>
+    </div>
+  );
+};
+```
+
+## L'api Context et le hook useContext
+
+L'api Context permet de passer des données à travers l'arbre des composants sans avoir à passer par les props.
